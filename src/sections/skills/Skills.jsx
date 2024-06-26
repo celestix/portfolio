@@ -9,7 +9,7 @@ export default function Skills() {
             <p class="mb-3 text-lg md:text-xl text-gray-400 text-center pb-14 px-2">
                 As a dedicated backend developer, I possess a diverse set of technical skills that enable me to build robust and scalable solutions. My expertise includes:
             </p>
-            <div class="flex flex-row text-white px-2">
+            <div class="flex md:flex-row flex-col text-white px-2">
                 <div class="py-3 px-10 basis-1/3">
                     <h4 class="text-4xl font-bold py-3">Languages</h4>
                     <ul class="font-bold text-2xl px-2 py-3">
