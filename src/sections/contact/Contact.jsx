@@ -33,17 +33,25 @@ export default function Contact() {
             <br />
             <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
           </form>
-          <div class="flex flex-row justify-center my-10">
+          <div class="flex flex-row justify-center md:my-10 mt-10">
             <a href="https://github.com/celestix">
               <GithubButton />
             </a>
             <a href="https://twitter.com/TheVeerRana">
               <TwitterButton />
             </a>
-            <a href="https://t.me/coswand">
+            <a href="https://t.me/coswand" class="md:block" hidden>
               <TelegramButton />
             </a>
-            <a href="https://discordapp.com/users/1030177080324935720">
+            <a href="https://discordapp.com/users/1030177080324935720" class="md:block" hidden>
+              <DiscordButton />
+            </a>
+          </div>
+          <div class="flex flex-row justify-center">
+            <a href="https://t.me/coswand" class="md:hidden">
+              <TelegramButton />
+            </a>
+            <a href="https://discordapp.com/users/1030177080324935720" class="md:hidden">
               <DiscordButton />
             </a>
           </div>

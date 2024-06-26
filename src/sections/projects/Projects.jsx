@@ -5,7 +5,7 @@ export default function Projects() {
         <div class="px-20 pb-10">
           <h1 class="text-6xl font-extrabold text-center pb-14">Projects</h1>
           <br />
-          <div class="mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 items-center justify-center">
+          <div class="mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 items-center justify-center">
             <ProjectCard 
                 name="Galactron" 
                 description="A powerful Telegram bot to help people with channel management, written in Go." 

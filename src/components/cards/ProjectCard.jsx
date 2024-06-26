@@ -4,7 +4,7 @@ export default function ProjectCard({name,description,link}) {
             <a href={link}>
                 <h5 class="mb-2 text-2xl font-semibold tracking-tight text-center pb-3">{name}</h5>
             </a>
-            <p class="mb-3 font-normal text-gray-400 h-64 md:h-40">{description}</p>
+            <p class="mb-3 font-normal text-gray-400 h-64 md:h-56">{description}</p>
             <a href={link} class="inline-flex font-medium items-center text-blue-600 hover:underline">
                 Checkout now
                 <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
