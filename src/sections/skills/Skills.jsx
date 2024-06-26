@@ -1,3 +1,5 @@
+import SkillBar from "../../components/bar/SkillBar";
+
 export default function Skills() {
     return (
         <div class="px-20 pb-10">
@@ -9,140 +11,65 @@ export default function Skills() {
             </p>
             <div class="flex flex-row text-white px-2">
                 <div class="py-3 px-10 basis-1/3">
-                <h4 class="text-4xl font-bold py-3">Languages</h4>
-                <ul class="font-bold text-2xl px-2 py-3">
-                    <li class="py-2">
-                    <div class="flex flex-row items-center space-x-4">
-                        <p class="font-semibold w-36">Python</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full" style={{width: '80%'}}></div>
-                        </div>
-                    </div>
-                    </li>
-                    <li class="py-2">
-                    <div class="flex flex-row items-center space-x-4">
-                        <p class="font-semibold w-36">Go</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full" style={{width: '90%'}}></div>
-                        </div>
-                    </div>
-                    </li>
-                    <li class="py-2">
-                    <div class="flex flex-row items-center space-x-4">
-                        <p class="font-semibold w-36">Rust</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full" style={{width: '60%'}}></div>
-                        </div>
-                    </div>
-                    </li>
-                    <li class="py-2">
-                    <div class="flex flex-row items-center space-x-4">
-                        <p class="font-semibold w-36">C/C++</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full" style={{width: '70%'}}></div>
-                        </div>
-                    </div>
-                    </li>
-                    <li class="py-2">
-                    <div class="flex flex-row items-center space-x-4">
-                        <p class="font-semibold w-36">Dart</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full" style={{width: '75%'}}></div>
-                        </div>
-                    </div>
-                    </li>
-                    <li class="py-2">
-                    <div class="flex flex-row items-center space-x-4">
-                        <p class="font-semibold w-36">Javascript</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full" style={{width: '55%'}}></div>
-                        </div>
-                    </div>
-                    </li>
-                </ul>
+                    <h4 class="text-4xl font-bold py-3">Languages</h4>
+                    <ul class="font-bold text-2xl px-2 py-3">
+                        <li class="py-2">
+                        <SkillBar name="Python" progress="80%" />
+                        </li>
+                        <li class="py-2">
+                        <SkillBar name="Go" progress="90%" />
+                        </li>
+                        <li class="py-2">
+                        <SkillBar name="Rust" progress="60%" />
+                        </li>
+                        <li class="py-2">
+                        <SkillBar name="C/C++" progress="70%" />
+                        </li>
+                        <li class="py-2">
+                        <SkillBar name="Dart" progress="75%" />
+                        </li>
+                        <li class="py-2">
+                        <SkillBar name="Javascript" progress="55%" />
+                        </li>
+                    </ul>
                 </div>
                 <div class="py-3 px-10 basis-1/3">
-                <h4 class="text-4xl font-bold py-3">Databases</h4>
-                <ul class="font-bold text-2xl px-2 py-3">
-                    <li class="py-2">
-                    <div class="flex flex-row items-center space-x-4">
-                        <p class="font-semibold w-36">PostgreSQL</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full" style={{width: '85%'}}></div>
-                        </div>
-                    </div>
-                    </li>
-                    <li class="py-2">
-                    <div class="flex flex-row items-center space-x-4">
-                        <p class="font-semibold w-36">MySQL</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full" style={{width: '70%'}}></div>
-                        </div>
-                    </div>
-                    </li>
-                    <li class="py-2">
-                    <div class="flex flex-row items-center space-x-4">
-                        <p class="font-semibold w-36">MongoDB</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full" style={{width: '74%'}}></div>
-                        </div>
-                    </div>
-                    </li>
-                    <li class="py-2">
-                    <div class="flex flex-row items-center space-x-4">
-                        <p class="font-semibold w-36">SQLite</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full" style={{width: '90%'}}></div>
-                        </div>
-                    </div>
-                    </li>
-                </ul>
+                    <h4 class="text-4xl font-bold py-3">Databases</h4>
+                    <ul class="font-bold text-2xl px-2 py-3">
+                        <li class="py-2">
+                        <SkillBar name="PostgreSQL" progress="85%" />
+                        </li>
+                        <li class="py-2">
+                        <SkillBar name="MySQL" progress="70%" />
+                        </li>
+                        <li class="py-2">
+                        <SkillBar name="MongoDB" progress="74%" />
+                        </li>
+                        <li class="py-2">
+                        <SkillBar name="SQLite" progress="90%" />
+                        </li>
+                    </ul>
                 </div>
                 <div class="py-3 px-10 basis-1/3">
-                <h4 class="text-4xl font-bold py-3">Other Technologies</h4>
-                <ul class="font-bold text-2xl px-2 py-3">
-                    <li class="py-2">
-                    <div class="flex flex-row items-center space-x-4">
-                        <p class="font-semibold w-36">Git</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full" style={{width: '80%'}}></div>
-                        </div>
-                    </div>
-                    </li>
-                    <li class="py-2">
-                    <div class="flex flex-row items-center space-x-4">
-                        <p class="font-semibold w-36">Azure</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full" style={{width: '90%'}}></div>
-                        </div>
-                    </div>
-                    </li>
-                    <li class="py-2">
-                    <div class="flex flex-row items-center space-x-4">
-                        <p class="font-semibold w-36">AWS</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full" style={{width: '60%'}}></div>
-                        </div>
-                    </div>
-                    </li>
-                    <li class="py-2">
-                    <div class="flex flex-row items-center space-x-4">
-                        <p class="font-semibold w-36">Linux</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full" style={{width: '70%'}}></div>
-                        </div>
-                    </div>
-                    </li>
-                    <li class="py-2">
-                    <div class="flex flex-row items-center space-x-4">
-                        <p class="font-semibold w-36">Flutter</p>
-                        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                        <div class="bg-blue-600 h-2.5 rounded-full" style={{width: '70%'}}></div>
-                        </div>
-                    </div>
-                    </li>
-                </ul>
-            </div>
+                    <h4 class="text-4xl font-bold py-3">Other Technologies</h4>
+                    <ul class="font-bold text-2xl px-2 py-3">
+                        <li class="py-2">
+                        <SkillBar name="Git" progress="80%" />
+                        </li>
+                        <li class="py-2">
+                        <SkillBar name="Azure" progress="90%" />
+                        </li>
+                        <li class="py-2">
+                        <SkillBar name="AWS" progress="60%" />
+                        </li>
+                        <li class="py-2">
+                        <SkillBar name="Linux" progress="70%" />
+                        </li>
+                        <li class="py-2">
+                        <SkillBar name="Flutter" progress="70%" />
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
       </div>
