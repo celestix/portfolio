@@ -2,7 +2,7 @@ import ProjectCard from "../../components/cards/ProjectCard";
 
 export default function Projects() {
     return (
-        <div class="px-20 pb-10">
+        <div class="md:px-20 px-10 pb-10">
           <h1 class="text-6xl font-extrabold text-center pb-14">Projects</h1>
           <br />
           <div class="mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 items-center justify-center">

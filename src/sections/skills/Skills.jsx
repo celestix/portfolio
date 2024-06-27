@@ -2,7 +2,7 @@ import SkillBar from "../../components/bar/SkillBar";
 
 export default function Skills() {
     return (
-        <div class="px-20 pb-10">
+        <div class="md:px-20 px-5 pb-10">
             <h1 class="text-6xl font-extrabold text-center pb-5">Skills</h1>
             <br />
             <div class="text-gray-400">
