@@ -27,22 +27,6 @@ export default function NavBar() {
                 </div>
             </div>
             <hr class="h-px mt-7 border-0 bg-gray-700" />
-            {/* <div id="nav-menu" class="pt-5 mt-2 hidden">
-                <div class="px-10 md:flex-row md:space-x-20 flex-col text-4xl items-center md:flex text-center">
-                        <div class="hover:text-gray-300">
-                            <a href="#home">Home</a>
-                        </div>
-                        <hr class="h-px my-7 border-0 bg-gray-700" />
-                        <div class="hover:text-gray-300">
-                            <a href="https://blog.anodite.me">Blog</a>
-                        </div>
-                        <hr class="h-px my-7 border-0 bg-gray-700" />
-                        <div class="hover:text-gray-300">
-                            <a href="https://github.com/celestix">Github</a>
-                        </div>
-                </div>
-                <hr class="h-px mt-7 border-0 bg-gray-700" />
-            </div> */}
         </nav>
     )
 }
