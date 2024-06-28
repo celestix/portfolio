@@ -8,11 +8,34 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      keyframes: {
+        typing: {
+          "0%": {
+            width: "0%",
+            visibility: "hidden"
+          },
+          "100%": {
+            width: "100%"
+          }
+        },
+        blink: {
+          "100%": {
+            borderColor: "white"
+          },
+          "50%": {
+            borderColor: "transparent"
+          }
+        },
+        progress: {
+          "0%": {
+            width: "0%",
+          },
+        }
       },
+      animation: {
+        typing: "typing 2s steps(20) 3 alternate, blink .7s 3",
+        progress: "progress 1s steps(20) 1"
+      }
     },
   },
   plugins: [],
