@@ -15,7 +15,7 @@ const config: Config = {
             visibility: "hidden"
           },
           "100%": {
-            width: "100%"
+            width: "100%",
           }
         },
         blink: {
@@ -26,6 +26,11 @@ const config: Config = {
             borderColor: "transparent"
           }
         },
+        borderRemove: {
+          "100%": {
+            border: "none",
+          }
+        },
         progress: {
           "0%": {
             width: "0%",
@@ -33,7 +38,7 @@ const config: Config = {
         }
       },
       animation: {
-        typing: "typing 2s steps(20) 3 alternate, blink .7s 3",
+        typing: "typing 2s steps(20) 3 alternate, blink .7s 10, borderRemove 0s 7s forwards",
         progress: "progress 1s steps(20) 1"
       }
     },
