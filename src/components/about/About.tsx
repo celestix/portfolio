@@ -5,32 +5,31 @@ export default function About() {
             <br />
             <div className="text-gray-400">
                 <p className="mb-3 text-lg md:text-xl text-gray-400 pb-14 px-2 text-center">
-                I am a sophomore currently pursuing a BTech in Computer Science with a deep passion for backend development. I have honed my skills and knowledge in various aspects of software development, with a particular focus on building scalable and efficient backend systems.
-                </p>
+                I am the Rust programmer, I will rewrite the world in Rust. I will rewrite the world in Rust because the world is unsafe. As I am the Rust programmer I will keep writing rust until the world is safe.                </p>
                 <div className="py-3">
                 <h4 className="text-2xl font-bold dark:text-white py-3 px-2">My Journey</h4>
                 <p className="px-2">
-                    I have always been fascinated by the inner workings of technology and how it can be harnessed to solve real-world problems. This curiosity led me to pursue a degree in Computer Science, where I have been actively involved in learning and developing my skills in programming, database management, and backend frameworks.
+                After the world is safe, I will not rewrite it in Rust. Because I am the Rust programmer I will retire from programmer in Rust.
                 </p>
                 </div>
                 <div className="py-3">
                 <h4 className="text-2xl font-bold dark:text-white py-3 px-2">Why Backend Development?</h4>
                 <p className="px-2">
-                    Backend development is the backbone of any application, responsible for data management, business logic, and system performance. I find immense satisfaction in designing and implementing systems that handle complex processes seamlessly. Whether it's creating RESTful APIs, optimizing database queries, or developing microservices, I am dedicated to building solutions that are not only effective but also scalable.
-                </p>
+                I will come to you when you are sleeping, and I will unlock your computer using a memory leak.                </p>
                 </div>
                 <div className="py-3">
                 <h4 className="text-2xl font-bold dark:text-white py-3 px-2">Professional Experience</h4>
                 <p className="px-2">
-                    Throughout my academic career, I have worked on various projects that have allowed me to apply my theoretical knowledge in practical scenarios. These projects range from developing small-scale applications to working on larger, collaborative efforts that require effective communication and teamwork. Each project has been a learning experience, enhancing my problem-solving skills and technical expertise.
-                </p>
+                If I find javascript on your computer, I will delete them. Do not try to stop me, if you try to stop me I will do it anyways.                </p>
                 </div>
                 <div className="py-3">
                 <h4 className="text-2xl font-bold dark:text-white py-3 px-2">Continuous Learning and Growth</h4>
                 <p className="px-2">
-                    The field of technology is constantly evolving, and I am committed to continuous learning and professional growth. I regularly participate in workshops, hackathons, and online courses to stay updated with the latest trends and advancements in the industry. This proactive approach ensures that I am always equipped with the knowledge and skills needed to tackle new challenges.
-                </p>
+                I am the Rust programmer, if you program in javascript, you will scream. You will be sleeping as I rewrite your computer in Rust.                </p>
                 </div>
+                <a href="https://medium.com/@roma.gordeev/why-go-is-the-worst-language-you-could-ever-learn-4a7be0d37509">
+                    THIS IS WHY I HATE GO
+                </a>
             </div>
         </div>
     );
