@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "anodite.me",
-  description: "Anony's portfolio",
+  title: "i love rust. it's my favorite language",
+  description: "PROUD RUST USER",
 };
 
 export default function RootLayout({
