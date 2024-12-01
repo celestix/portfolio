@@ -8,7 +8,7 @@ export default async function Hero() {
         </div>
       </div>
       <div className="xl:right-content mx-36 rounded-lg overflow-hidden xl:block" hidden>
-        <img src="https://avatars.githubusercontent.com/u/73958752" className="pointer-events-none" alt="github profile logo"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/800px-Rust_programming_language_black_logo.svg.png" className="pointer-events-none" alt="github profile logo"/>
       </div>
     </div>
   )
