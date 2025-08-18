@@ -5,7 +5,7 @@ export default function About() {
             <br />
             <div className="text-gray-400">
                 <p className="mb-3 text-lg md:text-xl text-gray-400 pb-14 px-2 text-center">
-                I am a sophomore currently pursuing a BTech in Computer Science with a deep passion for backend development. I have honed my skills and knowledge in various aspects of software development, with a particular focus on building scalable and efficient backend systems.
+                I am Veer, a sophomore currently pursuing a BTech in Computer Science with a deep passion for backend development. I have honed my skills and knowledge in various aspects of software development, with a particular focus on building scalable and efficient backend systems.
                 </p>
                 <div className="py-3">
                 <h4 className="text-2xl font-bold dark:text-white py-3 px-2">My Journey</h4>
